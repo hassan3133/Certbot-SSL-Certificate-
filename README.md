@@ -1,3 +1,6 @@
+![Maintained by Hassan](https://img.shields.io/badge/maintained%20by-Hassan.com-blue)
+
+
 # Certbot
 
 Generate and renew SSL certificate using `certbot` and `Let's Encrypt` based on DNS names (Route53).
@@ -20,16 +23,3 @@ Generate and renew SSL certificate using `certbot` and `Let's Encrypt` based on 
 * Run `pipenv run ./generate.sh` command for generating SSL certificates
 * You will find all generated certificates in `~/local/letsencrypt/live/[DOMAIN_NAME]` path.
 
-## Contribute
-
-Contributions are always welcome.
-
-* Fork the repo
-* Create a pull request against master
-* Be sure tests pass (if exists)
-
-Check [GitHub Flow](https://guides.github.com/introduction/flow/) for details.
-
-## Authors
-
-Marius Stanca
